@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+    --ligth-cyan: hsl(179, 70%, 45%);
+
+    --Font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--Light-Gray);
+    font-size: var(--Font-size);
+}
+
+.maincontainer {
+    margin: 70px auto 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 313px;
+    height: 730px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* ------Nuestra comunidad------ */
+.ourcommunity {
+    padding: 8px 24px 24px;
+    height: 270px;
+    box-sizing: border-box;
+}
+
+
+
+.ourcommunity .title {
+    color: var(--Cyan);
+    font-size: 1.2em;
+}
+
+.ourcommunity .promo{
+    color: var(--Bright-Yellow);
+    font-size: 1em;
+    margin: 25px 0 10´x;
+}
+
+.ourcommunity p{
+    font-size: 0.86em;
+    color: var(--Grayish-Blue);
+    line-height: 27px;
+    margin-top: 16px;
+}
+
+/* ------Suscripción------ */
+.subscription {
+    background-color: var(--Cyan);
+    padding: 12px 24px 24px;
+    height: 230px;
+    box-sizing: border-box;
+    color: var(--Light-Gray);
+}
+
+.subscription h2{
+    font-size: 1em;
+    margin-bottom: 18px;
+}
+
+.subscription .price{
+    font-size: 2em;
+    font-weight: 700;
+}
+.subscription p{
+    margin-top: 8px;
+}
+
+button{
+    margin-top: 14px;
+    background-color: var(--Bright-Yellow);
+    color: var(--Light-Gray);
+    font-weight: 700;
+    font-size: 1em;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ------Nosotros------ */
+.why_us {
+    background-color: var(--ligth-cyan);
+    padding: 8px 24px 24px;
+    height: 230px;
+    box-sizing: border-box;
+    color: var(--Light-Gray)
+}
+
+.why_us h2{
+    font-size: 1.2em;
+}
+
+.why_us li{
+    list-style: none;
+    margin-left: -40px;
+    font-size: 0.85em;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+/* ------footer------ */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
