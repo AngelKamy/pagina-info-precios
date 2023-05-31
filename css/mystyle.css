@@ -120,3 +120,54 @@ button{
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* ------------(>375px)------------ */
+@media (min-width: 680px){
+    .maincontainer{
+        width: 636px;
+        height: 480px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 160px auto 100px;
+    }
+
+    .ourcommunity{
+        grid-column: 1 / 3;
+        padding: 20px 35px 35px;
+        height: 218px;
+    }
+
+    .ourcommunity .title{
+        font-size: 1.45em;
+    }
+
+    .ourcommunity .promo{
+        font-size: 1.1em;
+    }
+
+    .ourcommunity p{
+        font-size: 1em;
+        line-height: 27px;
+    }
+
+    .subscription{
+        grid-column: 1 / 2;
+        padding: 20px 40px 40px;
+        height: 258px;
+    }
+
+    .subscription h2{
+        font-size: 1.1em;
+    }
+    .subscription p{
+        font-size: 0.95em;
+    }
+
+
+
+    .why_us{
+        grid-column: 2 / 3;
+        padding: 20px 40px 40px;
+        height: 258px;
+    }
+}
